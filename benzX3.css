@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Part I HeaderBar*/
+
+.headerBar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.image-Brand {
+  width: 155px;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+ul li {
+  font-weight: bold;
+  list-style: none;
+  display: inline;
+  margin: 0 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  transition: 0.2s;
+}
+
+ul li:hover a {
+  border-bottom: 4px solid blueviolet;
+}
+
+/*Part II Sending-Money*/
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.container-sending-money {
+  display: flex;
+  margin: 10%;
+}
+
+.box-sending-money {
+  flex: 1;
+}
+
+.box-image-sending {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-sending {
+  font-size: 20px;
+  color: grey;
+  text-align: start;
+  margin-left: 0px;
+}
+
+.box-btn {
+  display: flex;
+  justify-content: flex-start;
+  margin: 45px 0;
+}
+
+.btn-register {
+  padding: 15px 45px;
+  background-color: blue;
+  color: white;
+  font-size: 17px;
+  margin-right: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-learn-more {
+  padding: 15px 45px;
+  background-color: white;
+  color: black;
+  font-size: 17px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-register:hover {
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+}
+
+.btn-learn-more:hover {
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+}
+
+/*Part III How it Works*/
+.container-howItWorks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.container-howItWorks h1,
+h3 {
+  text-align: center;
+  margin-top: -25px;
+  letter-spacing: 1px;
+}
+
+.container-howItWorks h3 {
+  color: grey;
+  line-height: 25px;
+}
+
+/*Part V In-app*/
+.container-inapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 200px 0;
+}
+
+.container-inapp img {
+  width: 200px;
+  height: 200px;
+  margin: 50px;
+}
+
+.inApp-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.inApp-1 h2,
+p {
+  text-align: center;
+}
+
+.inApp-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.inApp-2 h2,
+p {
+  text-align: center;
+}
+
+.inApp-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.inApp-3 h2,
+p {
+  text-align: center;
+}
+
+.container-inapp div p {
+  color: grey;
+  margin-top: -10px;
+}
+
+/* Part VI HumenThink */
+.container-realTime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  background-color: #e5e5e5;
+}
+
+.image-realtime {
+  flex: 1.5;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-3-realTime {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+}
+
+.content-3-realTime p {
+  font-size: 20px;
+  text-align: start;
+  margin-left: 0;
+}
+
+.content-3-realTime a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #6c63ff;
+}
+
+.content-3-realTime a:hover {
+  text-decoration: underline;
+}
+
+/* Part VII Clear */
+.container-Clear {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: -8%;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-Clear p {
+  color: gray;
+  font-size: 20px;
+}
+
+/* Part IIX */
+.icon-content {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  margin-bottom: 25%;
+}
+
+.icon-1 {
+  display: flex;
+}
+
+.image-icon {
+  flex: 1;
+  position: relative;
+  left: 20%;
+}
+
+.text-icon {
+  flex: 2;
+  padding: 30px;
+  text-align: start;
+}
+
+.text-icon h3,
+p {
+  text-align: start;
+}
+
+/* Part IX Dev-Opter */
+
+#Content-6 {
+  background-color: #6c63ff;
+  width: 100%;
+  height: 50vh;
+  margin: 100px 0;
+}
+
+.container-Dev-opter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.Dev-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 20px;
+  width: 22%;
+  height: 40vh;
+  padding: 25px;
+}
+
+.Disigner-box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.dev-text {
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+.dev-designer h3,
+p {
+  margin: 5px 5px 15px 20px;
+}
+
+/* Part End */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxFooter-1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 400px;
+  margin-top: -200px;
+}
+
+.boxFooter-1 p {
+  color: gray;
+}
+
+.boxFooter-1 img {
+  margin-bottom: 40px;
+}
+
+.boxFooter-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 55%;
+}
+
+.text-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+  padding: 20px;
+}
+
+.text-footer p {
+  color: gray;
+  font-family: ;
+}
+
+.text-footers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: inherit;
+  padding: 20px;
+}
